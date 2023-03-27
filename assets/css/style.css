@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+  font-family: stdV;
+  src: url(/assets/fonts/SDV-Fonts/Stardew_Valley.ttf);
+}
+
+:root{
+  --green: #37AD0D;
+  --blue:  #009FFD;
+  --yellow: #F2AB27;
+  --yellow-light: #F6C076;
+  --pink: #F288EB;
+  --gray: #545E56; 
+  --red: #A44A3F;
+  --bege: #E89F66;
+  --orange: #DE7C35;
+  --brow: #641B00;
+  --bg-1: #FAE895;
+  
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  width: 100%;
+  height: 700px;
+  background-image: url(/assets/img/banner-principal.jpg);
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img{
+  max-width: 100%;
+  max-height: 50%;
+
+}
+
+.banner .opcoes__banner {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.banner .opcoes__banner button{
+  width: 250px;
+  height: 55px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1.7rem;
+  background-color: var(--yellow-light);
+  color: var(--brow);
+  font-family: stdV;
+  text-transform: uppercase;
+
+}
+
+.banner .opcoes__banner .guia__iniciantes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sobre {
+  background-color: rgb(238, 238, 238);
+  color: var(--brow);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre .texto__sobre{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.sobre .texto__sobre h3{
+  font-family: stdV;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.sobre .texto__sobre p{
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
